@@ -1,2 +1,45 @@
 /* For information on how to create your own theme, please see:
 http://ionicframework.com/docs/theming/ */
+body {
+    background-image: url("/background-default.png") ; /* Substitua pela cor desejada */
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Ruda", sans-serif;
+    font-weight: 900;
+  }
+  
+  ion-button {
+    font-family: "Squada One", sans-serif;
+    font-size: 20px;
+  }
+
+ion-input.custom {
+    --background: white;
+    --placeholder-color: #2e294e;
+    --color: #2e294e;
+    --border-radius: 20px;
+}
+
+ion-button.custom {
+    --background: #be97c6;
+    --color: #2e294e;
+}
+
+ion-label {
+    color: #f5c6ff;
+    margin-bottom: 3px;
+    font-size: 14px;
+}
+
+.image-wrapper {
+  margin: 141px auto 50px;
+}
+
+.image-wrapper img {
+  width: 149px;
+  height: 149px;
+}
+
+.ion-page {
+  display: inline;
+}
